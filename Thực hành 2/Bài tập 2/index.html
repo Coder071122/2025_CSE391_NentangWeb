@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="shared.css" />
+    <title>Bài tập 2</title>
+  </head>
+  <body>
+    <div class="bg-[url('/assets/extra-files/ocean.jpg')] bg-cover bg-center">
+      <header class="flex justify-between items-center p-4 text-white">
+        <div id="page-logo">
+          <a href="/index.html" class="text-4xl font-bold text-yellow-200 font-['Oleo_Script']">Travel Goals</a>
+        </div>
+        <nav>
+          <ul class="flex space-x-4 border-4 border-yellow-200 p-2">
+            <li><a href="/places.html" class="hover:underline">Destinations</a></li>
+            <li><a href="#" class="hover:underline">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="hero" class="flex justify-center items-center h-[400px] text-white">
+          <div id="hero-content" class="text-center bg-black/70 py-6 px-40 rounded-lg">
+            <h1 class="text-3xl font-bold uppercase">Joe's Travel Page</h1>
+            <p class="mt-2 uppercase font-thin">Let's explore the world together!</p>
+            <a href="/places.html" class="mt-4 inline-block bg-yellow-300 text-black px-4 py-2 rounded-lg">Discover places</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <main class="bg-[#EAF6F6] py-12">
+      <section id="highlights" class="w-9/10 mx-auto text-center">
+        <h2 class="text-3xl font-medium mb-6">HIGHLIGHTS</h2>
+        <div id="destinations" class="flex justify-center gap-6">
+          <ul class="w-1/3">
+            <li class="destination bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="assets/extra-files/cities/miami.jpg" alt="Miami streets on sunny day" class="w-full h-40 object-cover">
+            </li>
+            <p class="py-3 text-gray-700">MIAMI <span class="text-green-600">USA</span></p>
+          </ul>
+          <ul class="w-1/3">
+            <li class="destination bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="assets/extra-files/cities/munich.jpg" alt="Munich stadium in winter" class="w-full h-40 object-cover">
+            </li>
+            <p class="py-3 text-gray-700">MUNICH <span class="text-green-600">GERMANY</span></p>
+          </ul>
+          <ul class="w-1/3">
+            <li class="destination bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="assets/extra-files/cities/barcelona.jpg" alt="Palm beach in Barcelona" class="w-full h-40 object-cover">
+            </li>
+            <p class="py-3 text-gray-700">BACRCELONA <span class="text-green-600">SPAIN</span></p>  
+          </ul>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <ul class="flex justify-center bg-black gap-12">
+        <li class="max-w-24 p-4">
+          <a href="https://www.instagram.com">
+            <img src="assets/extra-files/icons/insta.png" alt="Instagram logo"
+          /></a>
+        </li>
+        <li class="max-w-24 p-4">
+          <a href="https://www.facebook.com">
+            <img src="assets/extra-files/icons/facebook.png" alt="Facebook logo"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
